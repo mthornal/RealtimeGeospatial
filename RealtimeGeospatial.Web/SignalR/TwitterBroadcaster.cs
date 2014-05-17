@@ -16,7 +16,7 @@
         private static TwitterBroadcaster instance;
 
         private TwitterBroadcaster(IHubConnectionContext clients)
-        {
+        {            
             this.Clients = clients;                   
 
             Task.Run(() =>

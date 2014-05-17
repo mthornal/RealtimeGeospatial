@@ -88,7 +88,7 @@ app.directive('olMap', [function() {
                 },
                 onUnselect: function(feature) {
                     var layer = feature.layer;
-                    feature.style.fillOpacity = 0.2;
+                    feature.style.fillOpacity = 0.6;
                     feature.style.pointRadius = 6;
                     feature.renderIntent = null;
                     layer.drawFeature(feature);
@@ -115,8 +115,8 @@ app.directive('olMap', [function() {
                     {
                         pointRadius: 6,
                         stroke: false,
-                        fillColor: "#ff0000",
-                        fillOpacity: 0.2
+                        fillColor: "#ffffff",
+                        fillOpacity: 0.6
                     });
 
                 vectorLayer.addFeatures([feature]);
@@ -126,7 +126,7 @@ app.directive('olMap', [function() {
                         map.removePopup(feature.popup);
                     }
                     vectorLayer.removeFeatures([feature]);
-                }, 10000);
+                }, 30000);
 
             });
         }

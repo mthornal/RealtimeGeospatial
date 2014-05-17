@@ -14,11 +14,11 @@
 
     public class TweetStreamer : IDisposable
     {
-        private const string OAuthConsumerKey = "BQXDOVkZpvQWrW4R4s2yQ";
-        private const string OAuthConsumerSecret = "rcak3ujskmy5UwDCIRlgpcEZhaUz6tqnvzJoFs6sOU";
+        private const string OAuthConsumerKey = "OAuthConsumerKey";
+        private const string OAuthConsumerSecret = "OAuthConsumerSecret";
 
-        private const string OAuthToken = "21697727-fDayyUFw3cUNeOSG3PBKrKEYbqlP5zQ1NIqOcjdBz";
-        private const string OAuthTokenSecret = "USQbqn7OxxkKlfeCAgykOvFq9BpwEfWsmMMGcJFBKVoTb";
+        private const string OAuthToken = "OAuthToken";
+        private const string OAuthTokenSecret = "OAuthTokenSecret";
 
         private const string OAuthVersion = "1.0";
         private const string OAuthSignatureMethod = "HMAC-SHA1";
